@@ -17,9 +17,9 @@ class GroundVehicle():
     # TODO
 
 class Motorcycle(GroundVehicle):
-    def __init__(self):
+    def __init__(self, num_wheels = 2):
         # super().__init__()
-        self.num_wheels = 2
+        self.num_wheels = num_wheels
         self.sound = 'BRAAAP!!'
 
         
