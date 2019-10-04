@@ -4,8 +4,8 @@
 # object is constructed.
 
 class GroundVehicle():
-    def __init__(self):
-        self.num_wheels = 4
+    def __init__(self, num_wheels = 4):
+        self.num_wheels = num_wheels
         self.sound = 'vroooom'
 
     def __str__(self):
